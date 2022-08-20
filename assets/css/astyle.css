@@ -1,0 +1,43 @@
+* {
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: blue;
+	height: 15vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header h1 {
+	display: flex;
+	align-items: center;
+	margin-left: 10%;
+	color: #fff;
+}
+
+.header ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 17%;
+}
+
+.header ul li {
+	display: flex;
+	margin: 0 4%;
+}
+.header ul li a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.header ul li a:hover {
+	transition: 0.5s;
+	color: aquamarine;
+}
