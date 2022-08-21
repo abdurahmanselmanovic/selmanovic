@@ -108,3 +108,53 @@
 .hero button:hover {
 	cursor: pointer;
 }
+
+.about h1,
+p {
+	padding: 0 10%;
+	text-align: center;
+	color: gray;
+}
+
+.about h1 {
+	color: #444444;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin: 30px 0;
+	font-size: 32px;
+}
+
+.nebitno {
+	margin: -15px auto 15px auto;
+	background-color: #444444;
+	width: 10%;
+	height: 3px;
+}
+.container {
+	padding: 0 0%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.container img {
+	margin-top: 5%;
+	max-width: 80%;
+	height: auto;
+}
+.container h1,
+p {
+	text-align: left;
+	letter-spacing: 0.5px;
+	margin-bottom: 13px;
+}
+.container p::first-letter {
+	margin-left: 10px;
+}
+
+.containertext h1 {
+	font-size: 26px;
+}
+
+.container .nigga::first-letter {
+	margin: 10px 0 20px 0;
+}
